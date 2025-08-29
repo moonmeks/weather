@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>🌦 Прогноз погоды</h2>
+        <form method="get" action="/">
+            <input type="text" name="city" placeholder="Введите город" value="{{ city or '' }}" required>
+            <button type="submit">Показать</button>
+        </form>
+
+        {% if weather %}
+        <ul>
+            <li>🌡 Температура: {{ weather.temp }} (ощущается как {{ weather.feels }})</li>
+            <li>☁️ {{ weather.desc }}</li>
+            <li>💨 Ветер: {{ weather.wind }}</li>
+            <li>💧 Влажность: {{ weather.humidity }}</li>
+        </ul>
+        {% endif %}
+    </div>
+</body>
+</html>
