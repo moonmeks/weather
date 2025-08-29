@@ -10,7 +10,6 @@
 ### 1. Клонировать репозиторий
 ```bash
 git clone https://github.com/moonmeks/weather.git
-cd weather
 ```
 ### 2. Установить зависимости
 ```bash
