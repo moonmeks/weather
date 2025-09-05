@@ -1,7 +1,7 @@
 # Прогноз погоды
 
-Небольшое приложение на **FastAPI**, которое показывает погоду в разных городах.  
-Данные берутся с [wttr.in](https://wttr.in).
+Небольшое приложение на **FastAPI**, которое показывает погоду в разных городах 
+Данные берутся с [wttr.in](https://wttr.in)
 
 ---
 ![Image](https://github.com/moonmeks/weather/blob/main/image_weather.png)
