@@ -4,7 +4,7 @@
 Данные берутся с [wttr.in](https://wttr.in).
 
 ---
-[Image](https://github.com/moonmeks/weather/blob/main/image_weather.png)
+![Image](https://github.com/moonmeks/weather/blob/main/image_weather.png)
 ---
 
 ## Установка и запуск
